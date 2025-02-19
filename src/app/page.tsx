@@ -129,10 +129,6 @@ export default function Home() {
 		}
 	};
 
-	useEffect(() => {
-		console.log(response, "response 1")
-	}, [response])
-
 	return (
 		<main className="flex flex-col w-full max-w-[1000px] p-6 pb-12 md:px-8 gap-6">
 			<div className="flex justify-between gap-6 pb-10">
